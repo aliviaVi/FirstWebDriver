@@ -6,8 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.Arrays;
 import java.util.List;
 
 import static java.lang.Integer.parseInt;
@@ -23,7 +21,7 @@ public class ElementCollectionTests extends BaseTest {
 
 
     @Test
-    public void countElementInCartWithInventoryItem() throws InterruptedException {
+    public void countElementInCartWithPriceEstimation() throws InterruptedException {
 
         Thread.sleep(2000);
         WebElement userName = driver.findElement(By.cssSelector("#user-name"));
